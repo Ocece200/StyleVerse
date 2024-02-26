@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Verse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Style Verse</h1>
+      <nav>
+        <ul>
+          <li><a href="#" >
+            <span>Accueil </span>
+          </a></li>
+          <li><a href="#">
+            <span>Vêtements</span>
+            </a></li>
+          <li><a href="#">
+            <span>À propos</span>
+          </a></li>
+          <li><a href="#">
+            <span>Contact</span>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container1">
+      <ul >
+        <img src="images/Boutique.jpeg" alt="Image 3" height=50% width=40% id="bijoux3" >
+        <img src="images/Tshirts.jpeg" alt="Image 2" height=50% width=40% id="bijoux2">
+      </ul>
+    </section>
+    <section class="produits">
+      <div class="container">
+        <h2>Nos Vêtements</h2>
+
+        <div class="filtres">
+          <label for="categorie">Filtrer par catégorie</label>
+          <select id="categorie">
+            <option value="">Tous</option>
+            <option value="Robes">Robes</option>
+            <option value="Tops">Tops</option>
+            <option value="Pulls">Pulls</option>
+            <option value="Manteaux">Manteaux</option>
+            <option value="Jeans">Jeans</option>
+          </select>
+
+          <label for="prix-min">Prix minimum</label>
+          <input type="number" id="prix-min">
+
+          <label for="prix-max">Prix maximum</label>
+          <input type="number" id="prix-max">
+        </div>
+
+        <div class="liste-produits">
+          <div class="produit">
+            <img src="images/Robe.jpeg" alt="Robe Clytia">
+            <h3>Robe Clytia</h3>
+            <p>Découvrez la robe Clytia, une véritable ode à la féminité et à l'élégance bohème. Avec son design raffiné et sa coupe flatteuse, elle vous enveloppera de grâce et de charme bohème. Parfaite pour toutes les occasions, cette robe polyvalente vous accompagnera du jour à la nuit avec style. Laissez-vous séduire par son allure intemporelle et sa touche de sophistication bohème. Avec la robe Clytia, chaque jour devient une occasion de briller.</p>
+            <p class="prix">Prix : 65€</p>
+            <button>Ajouter au panier</button>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="temoignages">
+      <div class="container">
+        <h2>Les témoignages de nos clients</h2>
+
+        <div class="temoignage">
+          <blockquote>
+            "Bien plus qu'une simple boutique en ligne, ce site est devenu mon incontournable pour toutes mes tenues. Chaque pièce que j'ai achetée ici incarne la qualité et le style que je recherche. Je suis toujours impressionnée par la diversité des options proposées et par le service client impeccable. Merci pour l'inspiration quotidienne!"
+          </blockquote>
+          <p>- Marie.</p>
+        </div>
+
+        <div class="temoignage">
+          <blockquote>
+            "Je suis tombée amoureuse de ce site dès ma première visite. La sélection de vêtements est tout simplement sensationnelle, avec des pièces uniques qui ajoutent une touche de chic à ma garde-robe. La livraison rapide et le service clientèle attentif sont la cerise sur le gâteau. Je le recommande vivement à tous les passionnés de mode!"
+          </blockquote>
+          <p>- Anna.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Style Verse</p>
+      <ul>
+        <li><a href="#">Conditions générales de vente</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
